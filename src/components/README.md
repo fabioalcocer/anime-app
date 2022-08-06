@@ -1,0 +1,1 @@
+* Arreglar rutas de imagenes
