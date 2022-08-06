@@ -13,8 +13,7 @@ module.exports = {
         tg: "url('./src/assets/tg-banner.jpg')",
       },
       colors: {
-        "blue-1000": "#040420",
-        "blue-1100": "#060e27a9",
+        "blue-1000": "#040420"
       },
     },
     plugins: [[require("prettier-plugin-tailwindcss")]],
