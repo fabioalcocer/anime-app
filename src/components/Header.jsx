@@ -8,7 +8,7 @@ function header() {
             src="https://res.cloudinary.com/daobmfotr/image/upload/v1659840619/anime-imgs/logo_rvw4yl.webp"
             alt="logo"
           />
-          <h1>Anime App</h1>
+          <h1 className="cursor-pointer">Anime App</h1>
         </div>
       </header>
     </>

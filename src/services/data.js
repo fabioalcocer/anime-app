@@ -2,37 +2,55 @@ export const data = [
   {
     id: "1",
     name: "Shingeki no Kyojin",
+    opName: "Guren No Yumiya",
     imageSrc:
       "https://res.cloudinary.com/daobmfotr/image/upload/v1659840620/anime-imgs/snk-banner_fzs10s.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1659890401/anime-imgs/Shingeki_no_Kyojin_Guren_no_Yumiya_OP_1_sub_espa%C3%B1ol_lyrics_letra_dkrqex.mp3",
   },
   {
     id: "2",
-    name: "Shingeki no Kyojin",
+    name: "Death Note",
+    opName: "The World",
     imageSrc:
       "https://res.cloudinary.com/daobmfotr/image/upload/v1659840620/anime-imgs/deathnote-banner_ehtkig.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1659890770/anime-imgs/The_World_Death_Note_OP1_uywkx1.mp3",
   },
   {
     id: "3",
-    name: "Shingeki no Kyojin",
+    name: "Tokyo Revengers",
+    opName: "Crybaby",
     imageSrc:
       "https://res.cloudinary.com/daobmfotr/image/upload/v1659840620/anime-imgs/tokyo-banner_co9wwt.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1659890140/anime-imgs/Tokyo_Revengers_Opening_Cry_Baby_elh6oj.mp3",
   },
   {
     id: "4",
-    name: "Shingeki no Kyojin",
+    name: "Jujutsu Kaisen",
+    opName: "Kaikai Kitan",
     imageSrc:
-      "https://res.cloudinary.com/daobmfotr/image/upload/v1659840619/anime-imgs/tg-banner_kx24xr.webp",
+      "https://res.cloudinary.com/daobmfotr/image/upload/v1659840619/anime-imgs/jk-banner_sd3z8i.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1659899650/anime-imgs/%E5%BB%BB%E5%BB%BB%E5%A5%87%E8%AD%9A_Eve_MV_swktzu.mp3",
   },
   {
     id: "5",
-    name: "Shingeki no Kyojin",
+    name: "Tokyo Ghoul",
+    opName: "Unravel",
     imageSrc:
-      "https://res.cloudinary.com/daobmfotr/image/upload/v1659840619/anime-imgs/jk-banner_sd3z8i.webp",
+      "https://res.cloudinary.com/daobmfotr/image/upload/v1659840619/anime-imgs/tg-banner_kx24xr.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1659899656/anime-imgs/Unravel_q4yaga.mp3",
   },
   {
     id: "6",
-    name: "Shingeki no Kyojin",
+    name: "Kimetsu no Yaiba",
+    opName: "Gurenge",
     imageSrc:
       "https://res.cloudinary.com/daobmfotr/image/upload/v1659840620/anime-imgs/kny-banner_j1y077.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1659899654/anime-imgs/Demon_Slayer_Opening_1_xvxwyc.mp3",
   },
 ];

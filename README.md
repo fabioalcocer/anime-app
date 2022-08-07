@@ -1,1 +1,1 @@
-* Arreglar rutas de imagenes
+* Modal para el view more y cambiar dinamicamente la cancion a reproducir
