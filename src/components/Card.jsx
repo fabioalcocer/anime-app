@@ -24,7 +24,7 @@ function Card({ title, opName, img, opening }) {
       <p className="p-5 text-lg font-bold text-white drop-shadow-3xl">
         {title}
       </p>
-      <div className="mt-auto flex h-1/2 w-full translate-y-1 flex-col justify-center gap-4 rounded-sm bg-black/30 px-4 backdrop-blur-sm transition-transform duration-500 sm:h-[38%] sm:flex-row sm:items-center sm:justify-between">
+      <div className="mt-auto flex h-1/2 w-full translate-y-1 flex-col justify-center gap-4 rounded-sm bg-black/40 sm:bg-black/30 sm:backdrop-blur-sm px-4 transition-transform duration-500 sm:h-[38%] sm:flex-row sm:items-center sm:justify-between">
         <h3 className="text-base font-semibold text-red-100 drop-shadow-3xl md:text-lg">
           {opName}
         </h3>
