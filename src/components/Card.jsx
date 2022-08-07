@@ -2,14 +2,15 @@ import ViewBtn from "./ViewBtn";
 
 function Card({ title, img }) {
   return (
-    <div
-      className={`flex h-32 w-full max-w-lg flex-col overflow-hidden rounded-md bg-${img} bg-cover bg-no-repeat contrast-125 sm:h-36 md:h-44`}
-    >
+    <div className="flex h-32 w-full max-w-lg flex-col overflow-hidden rounded-md bg-cover bg-no-repeat contrast-125 sm:h-36 md:h-44">
+      <img src={img} className="absolute top-0 left-0 bottom-0 right-0 z-0" />
       <p className="p-5 text-lg font-bold text-white drop-shadow-3xl">
         {title}
       </p>
-      <div className="mt-auto flex h-[40%] w-full translate-y-1 items-center justify-between rounded-sm bg-black/30 backdrop-blur-sm transition-transform duration-500 px-4">
-        <h3 className="font-semibold drop-shadow-3xl text-red-100">Guren No Yumiya OP.1</h3>
+      <div className="mt-auto flex h-[40%] w-full translate-y-1 items-center justify-between rounded-sm bg-black/30 px-4 backdrop-blur-sm transition-transform duration-500">
+        <h3 className="font-semibold text-red-100 drop-shadow-3xl">
+          Guren No Yumiya OP.1
+        </h3>
         <div className="flex items-center gap-5">
           <ViewBtn />
           <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-pink-500 to-orange-400 p-0.5 text-sm font-bold text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-pink-200 group-hover:from-pink-500 group-hover:to-orange-400 dark:text-white dark:focus:ring-pink-800">
