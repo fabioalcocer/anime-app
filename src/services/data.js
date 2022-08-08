@@ -7,6 +7,16 @@ export const data = [
       "https://res.cloudinary.com/daobmfotr/image/upload/v1659840620/anime-imgs/snk-banner_fzs10s.webp",
     soundSrc:
       "https://res.cloudinary.com/daobmfotr/video/upload/v1659890401/anime-imgs/Shingeki_no_Kyojin_Guren_no_Yumiya_OP_1_sub_espa%C3%B1ol_lyrics_letra_dkrqex.mp3",
+
+    openings: {
+      "OP-1":
+        "https://res.cloudinary.com/daobmfotr/video/upload/v1659890401/anime-imgs/Shingeki_no_Kyojin_Guren_no_Yumiya_OP_1_sub_espa%C3%B1ol_lyrics_letra_dkrqex.mp3",
+
+      "OP-2":
+        "https://res.cloudinary.com/daobmfotr/video/upload/v1659924917/anime-imgs/Shingeki_No_Kyojin_2_Shinzou_wo_Sasageyo_ydagip.mp3",
+      "OP-3":
+        "https://res.cloudinary.com/daobmfotr/video/upload/v1659925423/anime-imgs/Shingeki_No_Kyojin_OP7_The_Rumbling_pabwzw.mp3",
+    },
   },
   {
     id: "2",
@@ -58,7 +68,7 @@ export const data = [
     name: "Full Metal Alchemist",
     opName: "Again",
     imageSrc:
-      "https://res.cloudinary.com/daobmfotr/image/upload/v1659922214/anime-imgs/FMAB_phnaaa.webp",
+      "https://res.cloudinary.com/daobmfotr/image/upload/v1659922724/anime-imgs/Fullmetal-Alchemistjpg_rekmhj.webp",
     soundSrc:
       "https://res.cloudinary.com/daobmfotr/video/upload/v1659922295/anime-imgs/Again_OP1_Subtitulado_Al_Espa%C3%B1ol_Fullmetal_Alchemist_Brotherhood_aqaxdq.mp3",
   },
