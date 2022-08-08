@@ -53,4 +53,13 @@ export const data = [
     soundSrc:
       "https://res.cloudinary.com/daobmfotr/video/upload/v1659899654/anime-imgs/Demon_Slayer_Opening_1_xvxwyc.mp3",
   },
+  {
+    id: "7",
+    name: "Full Metal Alchemist",
+    opName: "Again",
+    imageSrc:
+      "https://res.cloudinary.com/daobmfotr/image/upload/v1659922214/anime-imgs/FMAB_phnaaa.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1659922295/anime-imgs/Again_OP1_Subtitulado_Al_Espa%C3%B1ol_Fullmetal_Alchemist_Brotherhood_aqaxdq.mp3",
+  },
 ];
