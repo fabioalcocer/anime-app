@@ -121,4 +121,20 @@ export const data = [
       },
     ],
   },
+  {
+    id: "8",
+    name: "One Punch Man",
+    opName: "The Hero!",
+    imageSrc:
+      "https://res.cloudinary.com/daobmfotr/image/upload/v1660015403/anime-imgs/onepunchman_odk5nt.webp",
+    soundSrc:
+      "https://res.cloudinary.com/daobmfotr/video/upload/v1660016224/anime-imgs/One_Punch_Man_Opening_OP_1080p_qwyzs8.mp3",
+    openings: [
+      {
+        title: "The Hero!",
+        "OP-1":
+          "https://res.cloudinary.com/daobmfotr/video/upload/v1660016224/anime-imgs/One_Punch_Man_Opening_OP_1080p_qwyzs8.mp3",
+      },
+    ],
+  },
 ];
