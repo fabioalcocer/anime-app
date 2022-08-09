@@ -3,7 +3,7 @@ import { FiX, FiMusic } from "react-icons/fi";
 function Modal({ modalRef, filterOpening, card }) {
   return (
     <dialog
-      className="absolute top-1/2 left-1/2 w-1/3 min-w-max max-w-xs -translate-x-1/2 -translate-y-1/2 rounded-md bg-slate-800 py-4 px-7 backdrop:bg-black/50 sm:backdrop:backdrop-blur-sm"
+      className="fixed top-1/2 left-1/2 w-1/3 min-w-[298px] max-w-xs -translate-x-1/2 -translate-y-1/2 rounded-lg bg-slate-800 py-4 px-7 backdrop:bg-black/50 sm:backdrop:backdrop-blur-sm"
       ref={modalRef}
     >
       <div className="flex items-center justify-between">
