@@ -17,16 +17,16 @@ function Modal({ modalRef, filterOpening, card }) {
         />
       </div>
       <div className="mt-9 mb-7 flex flex-col gap-3">
-        {card.openings.map((key) => (
+        {card.openings.map((op) => (
           <p
-            key={key.title}
+            key={op.title}
             onClick={() => {
-              filterOpening(key[Object.keys(key)[1]]);
+              filterOpening(op[Object.keys(op)[1]]);
             }}
             className="inline-flex cursor-pointer items-center border-b-[1px] border-slate-300 border-opacity-20 pb-2 text-sm font-bold uppercase hover:text-orange-400"
           >
             <FiMusic className="mr-4 text-xl text-purple-400" />
-            {`${key.title} ${Object.keys(key)[1]}`}
+            {`${op.title} ${Object.keys(op)[1]}`}
           </p>
         ))}
       </div>
