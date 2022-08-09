@@ -42,9 +42,9 @@ function Footer() {
         </a>
       </div>
 
-      <div className="bg-gray-800 p-4 text-center">
+      <div className="bg-gray-800 p-3 text-center">
         <a className="text-sm text-slate-400" href="https://bit.ly/3E5AGBt">
-          © 2022 OpenBootcamp Community™. All Rights Reserved.
+          © 2022 OpenBootcamp Community™.
         </a>
       </div>
     </footer>

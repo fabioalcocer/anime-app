@@ -1,6 +1,5 @@
 import Card from "./Card";
-import { data } from "../services/data";
-import { useRef } from "react";
+import { data } from "../data/data";
 
 function CardsContainer() {
   return (

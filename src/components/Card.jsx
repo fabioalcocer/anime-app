@@ -18,6 +18,7 @@ function Card({ card }) {
 
   const filterOpening = (e) => {
     modalRef.current.close()
+    window.onscroll = null;
 
     const string = e.target.innerText;
 
@@ -73,7 +74,7 @@ function Card({ card }) {
         </div>
       </div>
 
-      <Modal modalRef={modalRef} filterOpening={filterOpening} />
+      <Modal card={card} modalRef={modalRef} filterOpening={filterOpening} />
     </>
   );
 }
