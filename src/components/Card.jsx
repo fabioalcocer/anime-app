@@ -17,19 +17,21 @@ function Card({ card }) {
   };
 
   const filterOpening = (e) => {
-    modalRef.current.close()
+    modalRef.current.close();
     window.onscroll = null;
 
     const string = e.target.innerText;
 
-    Object.keys(card.openings).map((key) => {
-      if (string.indexOf(key) !== -1) {
-        const position = string.indexOf(key);
-        const value = string.slice(position, position + 4);
-        if (key === value) {
-          op.src = card.openings[key];
+    card.openings.map((a) => {
+      Object.keys(a).map((key) => {
+        if (string.indexOf(key) !== -1) {
+          const position = string.indexOf(key);
+          const value = string.slice(position, position + 4);
+          if (key === value) {
+            op.src = a[key];
+          }
         }
-      }
+      });
     });
   };
 
@@ -49,9 +51,7 @@ function Card({ card }) {
           </h3>
           <div className="flex items-center gap-3 sm:gap-5">
             <button
-              onClick={() => {
-                handleControls();
-              }}
+              onClick={handleControls}
               className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 font-medium text-gray-900 hover:text-white focus:outline-none group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
             >
               <span
