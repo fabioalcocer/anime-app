@@ -7,32 +7,20 @@ import Modal from "./Modal";
 function Card({ card }) {
   const modalRef = useRef(null);
 
-  const sound = new Audio(`${card.soundSrc}`);
   const [controls, setControls] = useState(true);
-  const [op, setOp] = useState(sound);
+  const [op, setOp] = useState(new Audio(`${card.soundSrc}`));
 
   const handleControls = () => {
     controls ? setControls(false) : setControls(true);
     op.paused ? op.play() : op.pause();
   };
 
-  const filterOpening = (e) => {
+  const filterOpening = (src) => {
     modalRef.current.close();
     window.onscroll = null;
-
-    const string = e.target.innerText;
-
-    card.openings.map((a) => {
-      Object.keys(a).map((key) => {
-        if (string.indexOf(key) !== -1) {
-          const position = string.indexOf(key);
-          const value = string.slice(position, position + 4);
-          if (key === value) {
-            op.src = a[key];
-          }
-        }
-      });
-    });
+    op.pause();
+    setControls(true);
+    setOp(new Audio(src));
   };
 
   return (

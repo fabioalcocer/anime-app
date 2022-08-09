@@ -20,7 +20,9 @@ function Modal({ modalRef, filterOpening, card }) {
         {card.openings.map((key) => (
           <p
             key={key.title}
-            onClick={filterOpening}
+            onClick={() => {
+              filterOpening(key[Object.keys(key)[1]]);
+            }}
             className="inline-flex cursor-pointer items-center border-b-[1px] border-slate-300 border-opacity-20 pb-2 text-sm font-bold uppercase hover:text-orange-400"
           >
             <FiMusic className="mr-4 text-xl text-purple-400" />
